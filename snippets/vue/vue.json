@@ -1,0 +1,10 @@
+{
+		"template": {
+				"prefix": "template",
+				"body": [
+						"<template>",
+						"/t${1}",
+						"</template>"
+				]
+		}
+}
