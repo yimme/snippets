@@ -3,12 +3,11 @@
 		"prefix": "template",
 		"body": [
 			"<template>",
-			"\t<div>",
-			"\t\t${1}",
+			"\t<div$1>",
+			"\t\t$0",
 			"\t</div>",
 			"</template>"
 		],
-		"description": "template ements"
-
+		"description": "template element"
 	}
 }
