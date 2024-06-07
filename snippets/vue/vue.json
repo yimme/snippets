@@ -1,22 +1,14 @@
 {
-	"Script setup": {
-		"prefix": ["script:setup", "ss"],
-		"body": ["<script lang=\"ts\" setup>${1}</script>"],
-	},
-	"Style SCSS scoped": {
-		"prefix": ["style:scoped", "scss:scoped", "scoped"],
-		"body": ["<style lang=\"scss\" scoped>${1}</style>"],
-	},
-	"Style SCSS": {
-		"prefix": ["style:scss", "scss"],
-		"body": ["<style lang=\"scss\" scoped>${1}</style>"],
-	},
-	"import from": {
-		"prefix": ["import:from"],
-		"body": ["import {${2}} from \"${1}\""]
-	},
-	"props with defaults": {
-		"prefix": ["defaultProps", "propsWithDefault"],
-		"body": "withDefaults(defineProps<{ k: string }>(), { k: 'value' })"
-	},
+	"base template": {
+		"prefix": "template",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"\t\t${1}",
+			"\t</div>",
+			"</template>"
+		],
+		"description": "template ements"
+
+	}
 }
