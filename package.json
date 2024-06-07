@@ -6,10 +6,16 @@
 		"contributes": { 
 				"snippets": [
 						{
-								"language": [
-										"vue"
-								],
+								"language": "vue" ,
 								"path": "./snippets/vue/vue.json"
+						},
+						{
+								"language": "vue" ,
+								"path": "./snippets/vue/html.json"
+						},
+						{
+								"language": "vue" ,
+								"path": "./snippets/vue/script.json"
 						}
 				]
 		}	
