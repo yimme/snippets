@@ -2,24 +2,20 @@
 	"Script setup": {
 		"prefix": ["script:setup", "ss"],
 		"body": ["<script lang=\"ts\" setup>${1}</script>"],
-		"description": "A setup script tag."
 	},
 	"Style SCSS scoped": {
 		"prefix": ["style:scoped", "scss:scoped", "scoped"],
 		"body": ["<style lang=\"scss\" scoped>${1}</style>"],
-		"description": "scss style tag scoped"
 	},
 	"Style SCSS": {
 		"prefix": ["style:scss", "scss"],
 		"body": ["<style lang=\"scss\" scoped>${1}</style>"],
-		"description": "scss style tag not scoped"
 	},
 	"import from": {
 		"prefix": ["import:from"],
 		"body": ["import {${2}} from \"${1}\""]
 	},
 	"props with defaults": {
-		"isFileTemplate": true,
 		"prefix": ["defaultProps", "propsWithDefault"],
 		"body": "withDefaults(defineProps<{ k: string }>(), { k: 'value' })"
 	},

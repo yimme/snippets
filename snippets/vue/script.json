@@ -2,12 +2,10 @@
 	"Ref as const": {
 		"prefix": ["ref", "const ref"],
 		"body": "const ${1:name} = ref<${2:type}>('${3:defaultValue}')",
-		"description": "Simple ref"
 	},
 	"Computed property": {
 		"prefix": ["computed", "cmptd"],
 		"body": "const ${1:name} = computed(() => {})",
-		"description": "Quick computed prop as const"
 	},
 	"Named function": {
 		"prefix": ["func"],
@@ -22,7 +20,6 @@
 		"body": "console.log(${1})"
 	},
 	"Component Ref": {
-		"description": "Add a Component Template Ref",
 		"prefix": ["ref:component"],
 		"body": "const ${1:name} = ref<InstanceType<typeof ${2:ComponentName}> | null>(null)"
 	}
