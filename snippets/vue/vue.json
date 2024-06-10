@@ -1,13 +1,7 @@
 {
-	"base-template": {
-		"prefix": "template",
-		"body": [
-			"<template>",
-			"\t<div$1>",
-			"\t\t$0",
-			"\t</div>",
-			"</template>"
-		],
-		"description": "template element"
-	}
+	 "script-ts-composition": {
+        "prefix": "scriptTsSetup",
+        "body": ["<script setup lang=\"ts\">", "\t$0", "</script>"],
+        "description": "script setup vue with lang ts composition api element"
+    },
 }
